@@ -1,0 +1,18 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# data-pipeline caches / scratch
+data-pipeline/raw/
+data-pipeline/demo-out/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# web app (later phases)
+node_modules/
+dist/
+.DS_Store
